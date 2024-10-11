@@ -1,26 +1,34 @@
 * {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
-html {
-  margin: 0;
-  padding: 0;
-  height: 100%;
+ul {
+  list-style-type: none;
 }
 
-body {
-  overflow: auto;
-  line-height: 1;
-  margin: 0;
-  padding: 0;
-  border: 0;
+img {
+  max-width: 100%;
+  display: block;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+html, body {
   width: 100%;
   height: 100%;
-  vertical-align: baseline;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  background-size: cover;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 @font-face {
@@ -42,13 +50,23 @@ body {
   font-family: "SFProText-Bold";
   src: url("font/SFProText-Bold.ttf");
 }
+
 .my {
   background: #ffffff;
   height: 48px;
 
+
   .container {
+    margin: 0;
+    padding: 0;
     display: flex;
     flex-wrap: nowrap;
+    height: 50%;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
   }
 
   .text_up {
@@ -77,37 +95,35 @@ body {
 
 
   .dropdown {
-    display: inline-block;
-    position: relative;
+    width: 10%;
     margin-left: 7%;
 
   }
 
   .dropbtn {
-    padding: 15px;
-    text-align: center;
-    font-size: 14px;
+    font-size: 18px;
     color: #000000;
-    width: 200px;
     cursor: pointer;
     font-family: "SFProText-Light.ttf", sans-serif;
     font-weight: lighter;
+
   }
 
   .dropdown-content {
     padding: 0;
+    width: 10%;
     display: none;
-    margin-top: -5px;
     position: absolute;
-    width: 200px;
     background-color: rgb(255, 254, 254);
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 5px 8px 16px 0 rgba(85, 70, 223, 0.23);
+    z-index: 999;
   }
 
   .dropdown-content a {
     color: black;
-    font-size: 14px;
+    font-size: 18px;
+
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -140,75 +156,138 @@ body {
 
 }
 
-.main_block {
-  .text_block {
-    font-family: "SFProText-Bold.ttf", sans-serif;
-    font-weight: bold;
-    font-size: 48px;
-    text-align: center;
-    margin: 35px 0 0 0;
-  }
+main {
+  width: 100%;
+  background-color: #fafafa;
+  height: 100%;
+  z-index: 0;
 
-  .dropdown_block {
-    margin: 0 auto;
+  .mains {
     display: flex;
     justify-content: center;
-    position: relative;
-    max-width: 287px;
-  }
-
-  .dropbtn_block {
-    font-weight: lighter;
-    font-family: "SFProText-Light.ttf", sans-serif;
-    font-size: 18px;
-    color: #000000;
-    cursor: pointer;
-    padding: 15px;
-
-  }
-
-  .dropdown-content_block {
-    padding: 0;
-    display: none;
-    top: 100%;
-    font-size: 18px;
-    border-radius: 20px;
-    max-width: 287.63px;
+    text-align: center;
+    flex-direction: column;
+    place-items: center;
     width: 100%;
-    background-color: white;
-    box-shadow: 0px 8px 16px 0 rgba(85, 70, 223, 0.23);
-    position: absolute;
+    height: 85%;
+    z-index: 0;
+
+    .main_block {
+      width: 100%;
+
+
+      .text_block {
+        font-family: "SFProText-Bold.ttf", sans-serif;
+        font-weight: bold;
+        font-size: 48px;
+
+
+      }
+
+      .container_block {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        place-items: center;
+
+
+        .dropdown_block {
+          position: relative;
+          max-width: 300px;
+        }
+
+        .dropbtn_block {
+          font-weight: lighter;
+          font-family: "SFProText-Light.ttf", sans-serif;
+          font-size: 18px;
+          color: #000000;
+          cursor: pointer;
+          padding: 15px;
+
+
+        }
+
+
+        .dropdown-content_block {
+          padding: 0;
+          display: none;
+          top: 100%;
+          font-size: 18px;
+          border-radius: 20px;
+          max-width: 287.63px;
+          width: 100%;
+          background-color: white;
+          box-shadow: 0px 8px 16px 0 rgba(85, 70, 223, 0.23);
+          position: absolute;
+        }
+
+        .dropdown-content_block a {
+          display: block;
+          text-decoration: none;
+          padding: 12px 16px;
+          color: black;
+          font-weight: lighter;
+          font-family: "SFProText-Light.ttf", sans-serif;
+        }
+      }
+
+      .dropdown_block:hover .dropdown-content_block {
+        display: block;
+      }
+
+      .dropdown-content_block a:hover {
+        color: red;
+      }
+
+
+      .dropbtn_block:after {
+        display: block; /*превращаем его в блочный элемент*/
+        content: ""; /*контента в данном блоке не будет поэтому в кавычках ничего не ставим*/
+        height: 3px; /*задаём высоту линии*/
+        width: 0; /*задаём начальную ширину элемента (линии)*/
+        background-color: rgba(85, 70, 223, 0.23); /*цвет фона элемента*/
+        transition: width 0.4s ease;
+        margin-top: 4px;
+      }
+
+
+      .dropbtn_block:hover:after,
+      .dropbtn_block:focus:after {
+        width: 100%;
+      }
+    }
   }
 
-  .dropdown-content_block a {
-    display: block;
-    text-decoration: none;
-    padding: 12px 16px;
-    color: black;
-    font-weight: lighter;
-    font-family: "SFProText-Light.ttf", sans-serif;
+
+  .knopki {
+    background-color: black;
+    display: inline-block;
+    border-radius: 45px;
+    width: 8%;
+    margin: 2%;
+    transition: 0.5s;
+
+
+    .knopka {
+      font-size: 24px;
+    }
+
+    .knopka a {
+      display: block;
+      text-decoration: none;
+      color: white;
+      line-height: 50px;
+
+    }
+
+
+
   }
 
-  .dropdown_block:hover .dropdown-content_block {
-    display: block;
+  .knopki:hover {
+    background-color: #8e6def;
+    box-shadow:  0 0 20px rgba(132, 101, 221, 0.76);
   }
 
-  .dropdown-content_block a:hover {
-    color: red;
-  }
-
-  .dropbtn_block:after {
-    display: block; /*превращаем его в блочный элемент*/
-    content: ""; /*контента в данном блоке не будет поэтому в кавычках ничего не ставим*/
-    height: 3px; /*задаём высоту линии*/
-    width: 0; /*задаём начальную ширину элемента (линии)*/
-    background-color: rgba(85, 70, 223, 0.23); /*цвет фона элемента*/
-    transition: width 0.4s ease;
-    margin-top: 4px;
-  }
-
-  .dropbtn_block:hover:after,
-  .dropbtn_block:focus:after {
-    width: 100%;
-  }
 }
