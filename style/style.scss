@@ -317,44 +317,47 @@ main {
     display: flex;
   }
 
-    .sect1_png img {
-      width: 70px;
-    }
+  .sect1_png img {
+    width: 70px;
+  }
 
-    .sect_text {
-      margin-left: 2%;
-      font-size: 32px;
-      font-family: "SF-Pro-Display-Bold.ttf", sans-serif;
-      display: flex;
-      align-items: center;
+  .sect_text {
+    margin-left: 2%;
+    font-size: 32px;
+    font-family: "SF-Pro-Display-Bold.ttf", sans-serif;
+    display: flex;
+    align-items: center;
 
 
-    }
+  }
 
-    .sect_text2 {
-      margin-top: 1.5%;
-      font-size: 24px;
-      display: flex;
-      color: cornflowerblue;
-      font-family: "SF-Pro-Display-Bold.ttf", sans-serif;
-    }
+  .sect_text2 {
+    margin-top: 1%;
+    font-size: 24px;
+    display: flex;
+    color: cornflowerblue;
+    font-family: "SF-Pro-Display-Bold.ttf", sans-serif;
 
-    .sect_text3 {
-      margin-top: 1%;
-      font-size: 24px;
-      display: flex;
-      color: #000000;
-      font-family: "SF-Pro-Display-Bold.ttf", sans-serif;
-    }
+  }
 
-    .spisok {
-      margin: 1%;
-      font-size: 18px;
-      display: flex;
-      color: #000000;
-      font-family: "SF-Pro-Display-Bold.ttf", sans-serif;
+  .sect_text3 {
+    margin-top: 1%;
+    font-size: 24px;
+    display: flex;
+    color: #000000;
+    font-family: "SF-Pro-Display-Bold.ttf", sans-serif;
+  }
 
-    }
+  .spisok {
+    margin: 1%;
+    line-height: 35px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+    font-family: "SF-Pro-Display-Bold.ttf", sans-serif;
+
+  }
 
   .spisok ul {
     margin: 0;
@@ -365,13 +368,53 @@ main {
 
   .spisok li::marker {
     color: red;
-    content: '∎  ';
-
+    content: '∎ ';
 
 
   }
 
+  .spisok1 li::marker {
+    color: #a100ff;
+    content: '∎ ';
+
+
   }
+
+  .spisok2 li::marker {
+    color: #21da75;
+    content: '∎ ';
+
+
+  }
+
+  .spisok3 li::marker {
+    color: #f68f25;
+    content: '∎ ';
+
+
+  }
+
+  .spisok4 li::marker {
+    color: #21dad4;
+    content: '∎ ';
+
+
+  }
+
+  .klass_ruk {
+    margin-top: 3%;
+
+  }
+
+  .klass_ruk a {
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  .klass_ruk :hover {
+    color: red;
+  }
+}
 
 
 

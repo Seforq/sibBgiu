@@ -263,7 +263,7 @@ main .knopki:hover {
   align-items: center;
 }
 .section1 .sect_text2 {
-  margin-top: 1.5%;
+  margin-top: 1%;
   font-size: 24px;
   display: flex;
   color: cornflowerblue;
@@ -278,8 +278,10 @@ main .knopki:hover {
 }
 .section1 .spisok {
   margin: 1%;
-  font-size: 18px;
+  line-height: 35px;
+  font-size: 20px;
   display: flex;
+  flex-direction: column;
   color: #000000;
   font-family: "SF-Pro-Display-Bold.ttf", sans-serif;
 }
@@ -289,7 +291,33 @@ main .knopki:hover {
 }
 .section1 .spisok li::marker {
   color: red;
-  content: "∎  ";
+  content: "∎ ";
+}
+.section1 .spisok1 li::marker {
+  color: #a100ff;
+  content: "∎ ";
+}
+.section1 .spisok2 li::marker {
+  color: #21da75;
+  content: "∎ ";
+}
+.section1 .spisok3 li::marker {
+  color: #f68f25;
+  content: "∎ ";
+}
+.section1 .spisok4 li::marker {
+  color: #21dad4;
+  content: "∎ ";
+}
+.section1 .klass_ruk {
+  margin-top: 3%;
+}
+.section1 .klass_ruk a {
+  font-size: 20px;
+  text-decoration: none;
+}
+.section1 .klass_ruk :hover {
+  color: red;
 }
 
 /*# sourceMappingURL=style.css.map */
