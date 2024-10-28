@@ -103,7 +103,7 @@ html, body {
   .dropbtn p {
     font-family: "SF-Pro-Display-Light.ttf", sans-serif;
     font-size: 17px;
-    font-weight: lighter;
+    font-weight: 600;
     margin: 0;
     padding: 0;
   }
@@ -310,6 +310,7 @@ main {
     display: flex;
     margin-left: 2%;
     margin-top: 2%;
+    width: 50%;
     flex-direction: column;
   }
 
@@ -323,7 +324,7 @@ main {
 
   .sect_text {
     margin-left: 2%;
-    font-size: 32px;
+    font-size: 36px;
     font-family: "SF-Pro-Display-Bold.ttf", sans-serif;
     display: flex;
     align-items: center;
@@ -342,7 +343,7 @@ main {
 
   .sect_text3 {
     margin-top: 1%;
-    font-size: 24px;
+    font-size: 28px;
     display: flex;
     color: #000000;
     font-family: "SF-Pro-Display-Bold.ttf", sans-serif;
@@ -351,7 +352,7 @@ main {
   .spisok {
     margin: 1%;
     line-height: 35px;
-    font-size: 20px;
+    font-size: 24px;
     display: flex;
     flex-direction: column;
     color: #000000;
@@ -414,6 +415,38 @@ main {
   .klass_ruk :hover {
     color: red;
   }
+
+  .photki {
+    column-count: 2;
+    float: right;
+    margin-right: 2%;
+    margin-top: 2%;
+
+    .photos {
+      padding: 3%;
+      height: 230px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .photos img {
+      width: 260px;
+      height: 230px;
+
+
+    }
+
+    .photo_txt {
+      color: #000000;
+      font-family: "SF-Pro-Display-Bold.ttf", sans-serif;
+      line-height: 25px;
+
+
+    }
+  }
+
+
 }
 
 
