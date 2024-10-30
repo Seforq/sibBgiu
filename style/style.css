@@ -241,12 +241,12 @@ main .knopki:hover {
   height: 100%;
   margin: 0;
   padding: 0;
-  position: absolute;
+  position: relative;
+  border-bottom: 10px solid white;
 }
 .section1 .sect1_png {
   display: flex;
-  margin-left: 2%;
-  margin-top: 2%;
+  padding: 2%;
   width: 50%;
   flex-direction: column;
 }
@@ -341,6 +341,15 @@ main .knopki:hover {
   color: #000000;
   font-family: "SF-Pro-Display-Bold.ttf", sans-serif;
   line-height: 25px;
+}
+
+.section2 {
+  width: 100%;
+  background-color: #f4f4f4;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
 }
 
 /*# sourceMappingURL=style.css.map */
