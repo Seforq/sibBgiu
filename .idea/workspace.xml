@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e0532de-2890-49cf-9d2b-9587b58a69b2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/main_dir/style/adaptyve.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_dir/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/main_dir/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_dir/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/main_dir/style/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_dir/style/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/main_dir/style/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_dir/style/adaptyve.css" beforeDir="false" afterPath="$PROJECT_DIR$/main_dir/style/adaptyve.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_dir/style/adaptyve.scss" beforeDir="false" afterPath="$PROJECT_DIR$/main_dir/style/adaptyve.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main_dir/style/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/main_dir/style/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -126,7 +124,7 @@
       <workItem from="1744924747523" duration="373000" />
       <workItem from="1745739367331" duration="386000" />
       <workItem from="1745894473089" duration="3362000" />
-      <workItem from="1745922609328" duration="987000" />
+      <workItem from="1745922609328" duration="1277000" />
     </task>
     <servers />
   </component>
