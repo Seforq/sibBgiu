@@ -5,48 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e0532de-2890-49cf-9d2b-9587b58a69b2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/main_dir/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main_dir/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main_dir/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scssLintPlugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main_dir/.idea/scssLintPlugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sibBgiu.iml" beforeDir="false" afterPath="$PROJECT_DIR$/main_dir/.idea/sibBgiu.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main_dir/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main_dir/.idea/watcherTasks.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/font/AluenderJames-Regular.otf" beforeDir="false" afterPath="$PROJECT_DIR$/main_dir/font/AluenderJames-Regular.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/font/AluenderJames-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/main_dir/font/AluenderJames-Regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/font/SF-Pro-Display-Black.otf" beforeDir="false" afterPath="$PROJECT_DIR$/main_dir/font/SF-Pro-Display-Black.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/font/SF-Pro-Display-BlackItalic.otf" beforeDir="false" afterPath="$PROJECT_DIR$/main_dir/font/SF-Pro-Display-BlackItalic.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/font/SF-Pro-Display-Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/main_dir/font/SF-Pro-Display-Bold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/font/SF-Pro-Display-BoldItalic.otf" beforeDir="false" afterPath="$PROJECT_DIR$/main_dir/font/SF-Pro-Display-BoldItalic.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/font/SF-Pro-Display-Heavy.otf" beforeDir="false" afterPath="$PROJECT_DIR$/main_dir/font/SF-Pro-Display-Heavy.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/font/SF-Pro-Display-HeavyItalic.otf" beforeDir="false" afterPath="$PROJECT_DIR$/main_dir/font/SF-Pro-Display-HeavyItalic.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/font/SF-Pro-Display-Light.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/main_dir/font/SF-Pro-Display-Light.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/font/SF-Pro-Display-LightItalic.otf" beforeDir="false" afterPath="$PROJECT_DIR$/main_dir/font/SF-Pro-Display-LightItalic.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/font/SF-Pro-Display-Medium.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/main_dir/font/SF-Pro-Display-Medium.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/font/SF-Pro-Display-MediumItalic.otf" beforeDir="false" afterPath="$PROJECT_DIR$/main_dir/font/SF-Pro-Display-MediumItalic.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/font/SF-Pro-Display-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/main_dir/font/SF-Pro-Display-Regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/font/SF-Pro-Display-RegularItalic.otf" beforeDir="false" afterPath="$PROJECT_DIR$/main_dir/font/SF-Pro-Display-RegularItalic.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/font/SF-Pro-Display-Semibold.otf" beforeDir="false" afterPath="$PROJECT_DIR$/main_dir/font/SF-Pro-Display-Semibold.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/font/SF-Pro-Display-SemiboldItalic.otf" beforeDir="false" afterPath="$PROJECT_DIR$/main_dir/font/SF-Pro-Display-SemiboldItalic.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/font/SF-Pro-Display-Thin.otf" beforeDir="false" afterPath="$PROJECT_DIR$/main_dir/font/SF-Pro-Display-Thin.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/font/SF-Pro-Display-ThinItalic.otf" beforeDir="false" afterPath="$PROJECT_DIR$/main_dir/font/SF-Pro-Display-ThinItalic.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/font/SF-Pro-Display-Ultralight.otf" beforeDir="false" afterPath="$PROJECT_DIR$/main_dir/font/SF-Pro-Display-Ultralight.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/font/SF-Pro-Display-UltralightItalic.otf" beforeDir="false" afterPath="$PROJECT_DIR$/main_dir/font/SF-Pro-Display-UltralightItalic.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/font/SourceCodePro-Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/main_dir/font/SourceCodePro-Bold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/main_dir/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdf/Классное руководство 24-25.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/main_dir/pdf/Классное руководство 24-25.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/png/09.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/main_dir/png/09.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/png/7cf4e7e470d288bf3f9366b53ce83271.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/main_dir/png/7cf4e7e470d288bf3f9366b53ce83271.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/png/9efe8ba9d9c33a92162b37ee8c4f36f9.png" beforeDir="false" afterPath="$PROJECT_DIR$/main_dir/png/9efe8ba9d9c33a92162b37ee8c4f36f9.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/png/W-xIwN4mtmT9LYowGr89Irocx5GFlsyubkc8MtoOrJHQ-zmTCGyzf7iNhuLA58Jidm8D6VpeM6onom-sG2zCkzNO (1).png" beforeDir="false" afterPath="$PROJECT_DIR$/main_dir/png/W-xIwN4mtmT9LYowGr89Irocx5GFlsyubkc8MtoOrJHQ-zmTCGyzf7iNhuLA58Jidm8D6VpeM6onom-sG2zCkzNO (1).png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/png/W-xIwN4mtmT9LYowGr89Irocx5GFlsyubkc8MtoOrJHQ-zmTCGyzf7iNhuLA58Jidm8D6VpeM6onom-sG2zCkzNO.png" beforeDir="false" afterPath="$PROJECT_DIR$/main_dir/png/W-xIwN4mtmT9LYowGr89Irocx5GFlsyubkc8MtoOrJHQ-zmTCGyzf7iNhuLA58Jidm8D6VpeM6onom-sG2zCkzNO.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/png/image-204332-3-j.png" beforeDir="false" afterPath="$PROJECT_DIR$/main_dir/png/image-204332-3-j.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/png/ny sib.webp" beforeDir="false" afterPath="$PROJECT_DIR$/main_dir/png/ny sib.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/png/sibsiu.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/main_dir/png/sibsiu.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/png/sibsiu_logo_sign_RGB.png" beforeDir="false" afterPath="$PROJECT_DIR$/main_dir/png/sibsiu_logo_sign_RGB.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/main_dir/style/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/main_dir/style/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/main_dir/style/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_dir/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/main_dir/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_dir/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/main_dir/style/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_dir/style/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/main_dir/style/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,22 +31,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/seforq/Documents/GitHub/sibBgiu/png&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/seforq/Documents/GitHub/sibBgiu/node_modules/sass/sass.js",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "watcher.settings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\seforq\Documents\GitHub\sibBgiu\png" />
@@ -153,6 +117,7 @@
       <workItem from="1741533908946" duration="8000" />
       <workItem from="1744924747523" duration="373000" />
       <workItem from="1745739367331" duration="386000" />
+      <workItem from="1745894473089" duration="3007000" />
     </task>
     <servers />
   </component>

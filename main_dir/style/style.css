@@ -168,9 +168,9 @@ main .mains .main_block .container_block .dropbtn_block {
   font-family: "SF-Pro-Display-Bold.ttf", sans-serif;
   font-size: 17px;
   font-weight: bold;
-  color: black;
+  color: #7367da;
   cursor: pointer;
-  padding: 10px;
+  padding: 20px;
 }
 main .mains .main_block .container_block .dropdown-content_block {
   padding: 0;
@@ -218,7 +218,7 @@ main .knopki {
   display: inline-block;
   border-radius: 45px;
   width: 8%;
-  margin: 2%;
+  margin: 25px;
   transition: 0.5s;
 }
 main .knopki .knopka {
