@@ -102,11 +102,11 @@ html, body {
 .my .dropdown-content a {
   color: black;
   padding: 6%;
+  font-weight: bold;
   text-decoration: none;
   display: block;
   font-family: "SF-Pro-Display-Light.ttf", sans-serif;
   font-size: 17px;
-  font-weight: lighter;
 }
 .my .dropdown-content a:hover {
   color: red;
@@ -352,6 +352,7 @@ main .knopki:hover {
   margin: 0;
   padding: 0;
   position: relative;
+  display: none;
 }
 
 /*# sourceMappingURL=style.css.map */

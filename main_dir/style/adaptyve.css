@@ -1,0 +1,356 @@
+@charset "UTF-8";
+@media (max-width: 400px) {
+  img {
+    max-width: 100%;
+    display: block;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  @font-face {
+    font-family: "AluenderJames-Regular";
+    src: url("../font/AluenderJames-Regular.ttf");
+  }
+  @font-face {
+    font-family: "SourceCodePro-Bold";
+    src: url("../font/SourceCodePro-Bold.ttf");
+  }
+  @font-face {
+    font-family: "SF-Pro-Display-Light.ttf";
+    src: url("../font/SF-Pro-Display-Light.ttf");
+  }
+  @font-face {
+    font-family: "SF-Pro-Display-Medium.ttf";
+    src: url("../font/SF-Pro-Display-Medium.ttf");
+  }
+  @font-face {
+    font-family: "SF-Pro-Display-Bold.ttf";
+    src: url("../font/SF-Pro-Display-Bold.ttf");
+  }
+  .my {
+    background: #ffffff;
+    height: 50px;
+    display: none;
+  }
+  .my .container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 45%;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .my .text {
+    max-width: 10%;
+  }
+  .my .text_up {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.34);
+    font-size: 17px;
+    color: #000000;
+    margin: 0 5px 0 82px;
+    font-family: "SFProText-Light.ttf", sans-serif;
+  }
+  .my .text_down {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.34);
+    margin: 0 5px 0 25px;
+    font-size: 14px;
+    position: absolute;
+    max-width: 170px;
+    width: 100%;
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+    font-family: "SFProText-Light.ttf", sans-serif;
+  }
+  .my .dropdown {
+    width: 10%;
+    margin: 4%;
+  }
+  .my .dropbtn {
+    color: #000000;
+    cursor: pointer;
+    padding: 10px;
+  }
+  .my .dropbtn p {
+    font-family: "SF-Pro-Display-Light.ttf", sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+  }
+  .my .dropdown-content {
+    padding: 0;
+    width: 10%;
+    display: none;
+    position: absolute;
+    background-color: rgb(255, 254, 254);
+    border-radius: 20px;
+    box-shadow: 5px 8px 16px 0 rgba(85, 70, 223, 0.23);
+    z-index: 999;
+  }
+  .my .dropdown-content a {
+    color: black;
+    padding: 6%;
+    text-decoration: none;
+    display: block;
+    font-family: "SF-Pro-Display-Light.ttf", sans-serif;
+    font-size: 17px;
+    font-weight: lighter;
+  }
+  .my .dropdown-content a:hover {
+    color: red;
+  }
+  .my .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .my .dropbtn:after {
+    display: block; /*превращаем его в блочный элемент*/
+    content: ""; /*контента в данном блоке не будет поэтому в кавычках ничего не ставим*/
+    height: 3px; /*задаём высоту линии*/
+    width: 0; /*задаём начальную ширину элемента (линии)*/
+    background-color: rgba(85, 70, 223, 0.23); /*цвет фона элемента*/
+    transition: width 0.4s ease;
+    margin-top: 4px;
+  }
+  .my .dropbtn:hover:after,
+  .my .dropbtn:focus:after {
+    width: 100%;
+  }
+  main {
+    width: 100%;
+    background-color: #f4f4f4;
+    height: 100%;
+    z-index: 0;
+    border-bottom: 10px solid white;
+  }
+  main .mains {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    place-items: center;
+    width: 100%;
+    height: 85%;
+    z-index: 0;
+  }
+  main .mains .main_block {
+    width: 100%;
+  }
+  main .mains .main_block .text_block {
+    font-family: "SFProText-Bold.ttf", sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+  }
+  main .mains .main_block .container_block {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    place-items: center;
+  }
+  main .mains .main_block .container_block .dropdown_block {
+    position: relative;
+    max-width: 300px;
+  }
+  main .mains .main_block .container_block .dropbtn_block {
+    font-family: "SF-Pro-Display-Bold.ttf", sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: #7367da;
+    cursor: pointer;
+    padding: 20px;
+  }
+  main .mains .main_block .container_block .dropdown-content_block {
+    padding: 0;
+    display: none;
+    border-radius: 20px;
+    max-width: 287.63px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 8px 16px 0 rgba(85, 70, 223, 0.23);
+    position: absolute;
+  }
+  main .mains .main_block .container_block .dropdown-content_block a {
+    display: block;
+    text-decoration: none;
+    padding: 12px 16px;
+    color: black;
+    font-family: "SF-Pro-Display-Medium.ttf", sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+  }
+  main .mains .main_block .dropdown_block:hover .dropdown-content_block {
+    display: block;
+  }
+  main .mains .main_block .dropdown-content_block a:hover {
+    color: red;
+  }
+  main .mains .main_block .dropbtn_block:after {
+    display: block; /*превращаем его в блочный элемент*/
+    content: ""; /*контента в данном блоке не будет поэтому в кавычках ничего не ставим*/
+    height: 3px; /*задаём высоту линии*/
+    width: 0; /*задаём начальную ширину элемента (линии)*/
+    background-color: rgba(85, 70, 223, 0.23); /*цвет фона элемента*/
+    transition: width 0.4s ease;
+    margin-top: 4px;
+  }
+  main .mains .main_block .dropbtn_block:hover {
+    color: #8e6def;
+  }
+  main .mains .main_block .dropbtn_block:hover:after,
+  main .mains .main_block .dropbtn_block:focus:after {
+    width: 100%;
+  }
+  main .knopki {
+    background-color: black;
+    display: inline-block;
+    border-radius: 45px;
+    transition: 0.5s;
+    width: 70%;
+  }
+  main .knopki .knopka {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "SFProText-Light.ttf", sans-serif;
+  }
+  main .knopki .knopka a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    line-height: 50px;
+  }
+  main .knopki:hover {
+    background-color: #8e6def;
+    box-shadow: 0 0 20px rgba(132, 101, 221, 0.76);
+  }
+  .section1 {
+    width: 100%;
+    background-color: #f4f4f4;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    border-bottom: 10px solid white;
+  }
+  .section1 .sect1_png {
+    display: flex;
+    padding: 2%;
+    margin-left: 10px;
+    width: 200px;
+    flex-direction: column;
+  }
+  .section1 .sss {
+    display: flex;
+  }
+  .section1 .sect1_png img {
+    width: 70px;
+  }
+  .section1 .sect_text {
+    margin-left: 2%;
+    font-size: 14px;
+    font-family: "SF-Pro-Display-Bold.ttf", sans-serif;
+    display: flex;
+    align-items: center;
+  }
+  .section1 .sect_text2 {
+    margin-top: 1%;
+    font-size: 24px;
+    display: flex;
+    color: cornflowerblue;
+    font-family: "SF-Pro-Display-Bold.ttf", sans-serif;
+  }
+  .section1 .sect_text3 {
+    margin-top: 1%;
+    font-size: 14px;
+    display: flex;
+    color: #000000;
+    font-family: "SF-Pro-Display-Bold.ttf", sans-serif;
+  }
+  .section1 .spisok {
+    margin: 1%;
+    line-height: 20px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+    font-family: "SF-Pro-Display-Bold.ttf", sans-serif;
+  }
+  .section1 .spisok ul {
+    margin: 0;
+    padding: 0;
+  }
+  .section1 .spisok li::marker {
+    color: red;
+    content: "∎ ";
+  }
+  .section1 .spisok1 li::marker {
+    color: #a100ff;
+    content: "∎ ";
+  }
+  .section1 .spisok2 li::marker {
+    color: #21da75;
+    content: "∎ ";
+  }
+  .section1 .spisok3 li::marker {
+    color: #f68f25;
+    content: "∎ ";
+  }
+  .section1 .spisok4 li::marker {
+    color: #21dad4;
+    content: "∎ ";
+  }
+  .section1 .klass_ruk {
+    margin-top: 3%;
+  }
+  .section1 .klass_ruk a {
+    font-size: 20px;
+    text-decoration: none;
+  }
+  .section1 .klass_ruk :hover {
+    color: red;
+  }
+  .section1 .photki {
+    column-count: 2;
+    float: right;
+    margin-right: 2%;
+    margin-top: 2%;
+    display: none;
+  }
+  .section1 .photki .photos {
+    padding: 3%;
+    height: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .section1 .photki .photos img {
+    width: 260px;
+    height: 230px;
+  }
+  .section1 .photki .photo_txt {
+    color: #000000;
+    font-family: "SF-Pro-Display-Bold.ttf", sans-serif;
+    line-height: 25px;
+  }
+  .section2 {
+    width: 100%;
+    background-color: #f4f4f4;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=adaptyve.css.map */

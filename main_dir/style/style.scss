@@ -115,6 +115,7 @@ html, body {
     position: absolute;
     background-color: rgb(255, 254, 254);
     border-radius: 20px;
+
     box-shadow: 5px 8px 16px 0 rgba(85, 70, 223, 0.23);
     z-index: 999;
   }
@@ -122,11 +123,12 @@ html, body {
   .dropdown-content a {
     color: black;
     padding: 6%;
+    font-weight: bold;
     text-decoration: none;
     display: block;
     font-family: "SF-Pro-Display-Light.ttf", sans-serif;
     font-size: 17px;
-    font-weight: lighter;
+    
   }
 
   .dropdown-content a:hover {
@@ -457,8 +459,8 @@ main {
     margin: 0;
     padding: 0;
     position: relative;
+    display: none;
   }
-
 
 
 
