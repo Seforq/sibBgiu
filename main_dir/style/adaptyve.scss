@@ -315,7 +315,7 @@
       display: flex;
       padding: 2%;
       margin-left: 15px;
-      width: 270px;
+      width: 320px;
       flex-direction: column;
 
     }
@@ -325,12 +325,13 @@
     }
 
     .sect1_png img {
-      width: 70px;
+      width: 80px;
+     
     }
 
     .sect_text {
       margin-left: 2%;
-      font-size: 14px;
+      font-size: 24px;
       font-family: "SF-Pro-Display-Bold.ttf", sans-serif;
       display: flex;
       align-items: center;
@@ -358,7 +359,7 @@
     .spisok {
       margin: 1%;
       line-height: 20px;
-      font-size: 14px;
+      font-size: 15px;
       display: flex;
       flex-direction: column;
       color: #000000;
