@@ -152,6 +152,7 @@ main .mains .main_block .text_block {
   font-family: "SFProText-Bold.ttf", sans-serif;
   font-weight: bold;
   font-size: 48px;
+  margin-bottom: 20px;
 }
 main .mains .main_block .container_block {
   display: flex;
