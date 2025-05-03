@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3e0532de-2890-49cf-9d2b-9587b58a69b2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_dir/style/adaptyve.css" beforeDir="false" afterPath="$PROJECT_DIR$/main_dir/style/adaptyve.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_dir/style/adaptyve.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/main_dir/style/adaptyve.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_dir/style/adaptyve.scss" beforeDir="false" afterPath="$PROJECT_DIR$/main_dir/style/adaptyve.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_dir/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/main_dir/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +123,8 @@
       <workItem from="1745739367331" duration="386000" />
       <workItem from="1745894473089" duration="3362000" />
       <workItem from="1745922609328" duration="1341000" />
-      <workItem from="1745924022189" duration="239000" />
+      <workItem from="1745924022189" duration="252000" />
+      <workItem from="1746268398494" duration="236000" />
     </task>
     <servers />
   </component>
